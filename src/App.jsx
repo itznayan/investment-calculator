@@ -24,7 +24,7 @@ function App() {
       <div className="h-full w-full bg-gray-950">
         <Header />
         <div className="container-details flex justify-center mb-10 ">
-          <div className="px-10 text-xl font-bold  text-white p-2 bg-gradient-to-b from-emerald-600 to-green-950 h-full pb-4 shadow-sm shadow-emerald-900 w-[35%] max-sm:w-[80%] max-md:w-[65%] max-lg:w-[50%] rounded-sm">
+          <div className="px-10 text-xl font-bold  text-white p-2 bg-gradient-to-b from-emerald-600 to-green-950 h-full pb-4 shadow-sm shadow-emerald-900 w-[35%] max-sm:w-[90%] max-md:w-[65%] max-lg:w-[50%] rounded-sm">
             <Field userInput={userInput} onChange={handleChange} />
           </div>
         </div>
