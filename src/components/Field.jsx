@@ -13,7 +13,7 @@ function Field({ onChange, userInput }) {
           onChange={(event) =>
             onChange("initialInvestment", event.target.value)
           }
-          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-40"
+          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-32"
         />
       </label>
 
@@ -25,7 +25,7 @@ function Field({ onChange, userInput }) {
           value={userInput.annualInvestment}
           name="annualInvestment"
           onChange={(event) => onChange("annualInvestment", event.target.value)}
-          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-40"
+          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-32"
         />
       </label>
       <label className="mt-2 text-sm font-normal">
@@ -36,7 +36,7 @@ function Field({ onChange, userInput }) {
           value={userInput.expectedReturn}
           name="expectedReturn"
           onChange={(event) => onChange("expectedReturn", event.target.value)}
-          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-40"
+          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-32"
         />
       </label>
       <label className="mt-2 text-sm font-normal">
@@ -47,7 +47,7 @@ function Field({ onChange, userInput }) {
           value={userInput.duration}
           name="annualInvestment"
           onChange={(event) => onChange("duration", event.target.value)}
-          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-40"
+          className="hover:ring-2  mt-2 mx-4 bg-transparent border rounded-lg px-2 h-10  w-32"
         />
       </label>
     </div>
